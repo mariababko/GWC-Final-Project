@@ -91,8 +91,10 @@ nav#primary li:hover .drop-down li {
   color: orange;
 }
 
+
 /***Weekly hits Lucy***/
     
+
 .hits {
   padding: 20px;
   text-decoration: underline;
@@ -100,8 +102,6 @@ nav#primary li:hover .drop-down li {
 .about {
   background-color: #f9a66c;
   margin-top: 60px;
-  margin-left: 60px;
-  margin-right: 60px;
   padding: 5px;
   display: block;
 }
@@ -109,21 +109,20 @@ nav#primary li:hover .drop-down li {
 .secondClass {
   padding-left: 1000px;
 }
-
 .firstClass {
   padding-left: 15px;
 }
-
 .profile {
   ;
 }
-
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 figure {
-    margin-left: 60px;
-    margin-right: 60px;
     background-color: #4A6163;
 }
-
 .audioborder {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -133,7 +132,6 @@ figure {
   border-right-width: 120px;
   border-color: #e6e6e6;
 }
-
 .border {
   border-style: solid;
   border-width: 25px;
@@ -141,21 +139,26 @@ figure {
   padding: 25px;
   border-left-width: 20px;
   border-right-width: 20px;
-  margin-left: 60px;
-  margin-right: 60px;
 }
-
 .desc {
   text-align: center;
   background-color: #F17A7E;
 }
-
 .desctitle {
   padding-left: 30px;
-  margin-left: 60px;
-  margin-right: 60px;
   background-color: #e6e6e6;
 }
-
+.abouthead {
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.box-shadow {
+  -webkit-box-shadow: 0px 0px 6px 1px rgba(135,135,135,1);
+  -moz-box-shadow: 0px 0px 6px 1px rgba(135,135,135,1);
+  box-shadow: 0px 0px 6px 1px rgba(135,135,135,1);
+  margin-left: 60px;
+  margin-right: 60px;
+}
 .firstClass, .secondClass, .profile {display: inline;}
-
