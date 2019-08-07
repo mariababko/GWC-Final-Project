@@ -163,6 +163,12 @@ figure {
 }
 .firstClass, .secondClass, .profile {display: inline;}
 
+/** Maria home page **/
+
+.music-wrapper {
+  margin-bottom: 100px;
+}
+
 /*** Mrittika upload page***/
 {box-sizing: border-box}
 
