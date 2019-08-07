@@ -85,3 +85,9 @@ nav#primary li:hover .drop-down li {
     float: none;
     width: auto;
 }
+
+/** Weekly hits Mrittika*/   
+.checked {
+  color: orange;
+}
+
