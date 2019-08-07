@@ -115,9 +115,6 @@ nav#primary li:hover .drop-down li {
   padding-left: 15px;
 }
 .profile {
-  ;
-}
-* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -151,10 +148,25 @@ figure {
   background-color: #e6e6e6;
 }
 .abouthead {
-  text-decoration: underline;
   text-align: center;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin: 40px;
+  margin-top: 100px;
+  border: groove;
+  border-width: 10px;
+  border-color: lavender;
+}
+.aboutbase {
+  text-align: center;
+  padding: 40px;
+  border: solid;
+  border-color: #4A6163;
+  background-color: #4A6163;
+  border-width: 15px;
+}
+.aboutpic {
+  background-color: #4A6163;
+  padding: 5px;
+  display: block;
 }
 .box-shadow {
   -webkit-box-shadow: 0px 0px 6px 1px rgba(135,135,135,1);
