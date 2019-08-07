@@ -158,8 +158,8 @@ figure {
   -webkit-box-shadow: 0px 0px 6px 1px rgba(135,135,135,1);
   -moz-box-shadow: 0px 0px 6px 1px rgba(135,135,135,1);
   box-shadow: 0px 0px 6px 1px rgba(135,135,135,1);
-  margin-left: 60px;
-  margin-right: 60px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 .firstClass, .secondClass, .profile {display: inline;}
 
