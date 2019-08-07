@@ -91,3 +91,71 @@ nav#primary li:hover .drop-down li {
   color: orange;
 }
 
+/***Weekly hits Lucy***/
+    
+.hits {
+  padding: 20px;
+  text-decoration: underline;
+}
+.about {
+  background-color: #f9a66c;
+  margin-top: 60px;
+  margin-left: 60px;
+  margin-right: 60px;
+  padding: 5px;
+  display: block;
+}
+
+.secondClass {
+  padding-left: 1000px;
+}
+
+.firstClass {
+  padding-left: 15px;
+}
+
+.profile {
+  ;
+}
+
+figure {
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color: #4A6163;
+}
+
+.audioborder {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-style: solid;
+  border-width: 60px;
+  border-left-width: 120px;
+  border-right-width: 120px;
+  border-color: #e6e6e6;
+}
+
+.border {
+  border-style: solid;
+  border-width: 25px;
+  border-color: #e6e6e6;
+  padding: 25px;
+  border-left-width: 20px;
+  border-right-width: 20px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.desc {
+  text-align: center;
+  background-color: #F17A7E;
+}
+
+.desctitle {
+  padding-left: 30px;
+  margin-left: 60px;
+  margin-right: 60px;
+  background-color: #e6e6e6;
+}
+
+.firstClass, .secondClass, .profile {display: inline;}
+
