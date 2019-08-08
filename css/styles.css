@@ -121,7 +121,7 @@ nav#primary a:hover {
 nav#primary li:hover .drop-down {
     display: block;
     position: absolute;
-    top:50px;
+    top:49x;
     left: 0;
     background:#f17a7e;
     width: 100%;
