@@ -7,12 +7,12 @@
 
 body {
     font-size: 100%;
-    font-family: "Trebuchet MS", "Lucida Grande", monospace;
+    font-family: verdana, helvetica, arial;
     background: #f9faf4;
 }
 
 body.home {
-    margin:160px auto 0 auto;
+    margin:120px auto 0 auto;
 
 }
 
@@ -23,7 +23,7 @@ header {
     left: 0;
     width: 100%;
     background: #f9faf4;
-    height: 120px;
+    height: 100px
   }
 
 img {
@@ -34,22 +34,42 @@ img {
   margin-bottom: 10px;
 }
 
-img.logo {
-  float:left;
-  width:7%;
-  margin: 5px;
+
+
+li.sign {
+    float:right;
+    list-style-type: none;
+    width:5%;
+    text-align:center;
+    position: relative;
+    margin: 20px;
 }
 
 a.signup {
   float:right;
-  margin-right: 20px;
   text-decoration: none;
   color: #4A6163;
 }
 
+a.signin {
+  float:left;
+  text-decoration: none;
+  color: #4A6163;
+}
+
+a.signin:hover {
+    color: black;
+    text-decoration: underline;
+}
+a.signup:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+
 p.username {
-  float: right;
-  margin: 40px 20px 0 0;
+  float: left;
+  margin: 20px;
 }
 
 
@@ -127,7 +147,7 @@ nav#primary li:hover .drop-down li {
   text-decoration: underline;
 }
 .about {
-  background-color: #f9a66c;
+  background-color: #ffc94b;
   margin-top: 60px;
   padding: 5px;
   display: block;
@@ -181,12 +201,6 @@ figure {
   margin-top: 40px;
   margin-bottom: 40px;
 }
-.aboutbase {
-  padding: 40px;
-}
-.aboutheader {
-  padding-top: 80px;
-}
 .box-shadow {
   -webkit-box-shadow: 0px 0px 6px 1px rgba(135,135,135,1);
   -moz-box-shadow: 0px 0px 6px 1px rgba(135,135,135,1);
@@ -195,36 +209,6 @@ figure {
   margin-right: 100px;
 }
 .firstClass, .secondClass, .profile {display: inline;}
-
-.button1, .button2 {
-  float: left;
-  display:inline-block;
-  text-align: center;
-  width: 10em;
-  border: 5px solid lavender;
-  text-decoration-color: black;
-  background: lavender;
-}
-.button1 {
-
-}
-.aboutus {
-  padding: 80px;
-  background-color: grey;
-}
-.aboutus2 {
-  padding: 80px;
-  background-color: grey;
-}
-.aboutus3 {
-  padding: 80px;
-  background-color: grey;
-}
-.aboutus, .aboutus2, .aboutus3 {
-  display:inline-block;
-  text-align: center;
-  margin: 40px;
-}
 
 /** Maria home page **/
 
@@ -242,71 +226,95 @@ img.post {
 /*** Mrittika upload page***/
 {box-sizing: border-box}
 
-/* Full-width input fields */
- input[type=text], input[type=password] {
- width: 100%;
- padding: 15px;
- margin: 5px 0 22px 0;
- display: inline-block;
- border: none;
- background: #f1f1f1;
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
 }
 
-input[type=text]:focus, input[type=password]:focus {
- background-color: #ddd;
- outline: none;
-}
-
-hr {
- border: 1px solid #f1f1f1;
- margin-bottom: 25px;
-}
-
-/* Set a style for all buttons */
 button {
- background-color: #4CAF50;
- color: white;
- padding: 14px 20px;
- margin: 8px 0;
- border: none;
- cursor: pointer;
- width: 100%;
- opacity: 0.9;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
 }
 
 button:hover {
- opacity:1;
+  opacity: 0.8;
 }
 
-/* Extra styles for the cancel button */
 .cancelbtn {
- padding: 14px 20px;
- background-color: #f44336;
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
 }
 
-/* Float cancel and signup buttons and add an equal width */
-.cancelbtn, .signupbtn {
- float: left;
- width: 50%;
-}
-
-/* Add padding to container elements */
 .container {
- padding: 16px;
+  margin-top: 130px;
+  padding: 16px;
 }
 
-/* Clear floats */
-.clearfix::after {
- content: "";
- clear: both;
- display: table;
+span.psw {
+  float: right;
+  padding-top: 16px;
 }
 
-/* Change styles for cancel button and signup button on extra small screens */
+/* Change styles for span and cancel button on extra small screens */
 @media screen and (max-width: 300px) {
- .cancelbtn, .signupbtn {
-   width: 100%;
- }
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+/*uplaod page css*/
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+input[type=file] {
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: 50px;
+}
+
+p.term-priv {
+  margin: 10px 0 20px 0;
 }
 
 /* footer */
@@ -335,20 +343,4 @@ footer li {
 
 footer a {
     color: #666
-}
-/* width */
-::-webkit-scrollbar {
-  width: 15px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 10px grey;
-  border-radius: 10px;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #990033;
-  border-radius: 10px;
 }
