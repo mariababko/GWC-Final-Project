@@ -185,6 +185,9 @@ figure {
   margin-left: 100px;
   margin-right: 100px;
 }
+.uploadbody {
+  margin: 70px;
+}
 .firstClass, .secondClass, .profile {
   display: inline;
 }
