@@ -40,12 +40,28 @@ img.logo {
   margin: 5px;
 }
 
+li.sign {
+    float:right;
+    list-style-type: none;
+    width:5%;
+    text-align:center;
+    position: relative;
+}
+/*
 a.signup {
   float:right;
   margin-right: 20px;
   text-decoration: none;
   color: #4A6163;
 }
+
+a.signin {
+  float:right;
+  margin-right: 20px;
+  text-decoration: none;
+  color: #4A6163;
+}
+*/
 
 p.username {
   float: right;
@@ -190,10 +206,6 @@ figure {
 }
 .firstClass, .secondClass, .profile {display: inline;}
 
-#button1, #button2 {
-  display:inline-block;
-}
-
 /** Maria home page **/
 
 .wrapper {
@@ -277,6 +289,10 @@ button:hover {
  }
 }
 
+p.term-priv {
+  margin: 10px 0 20px 0;
+}
+
 /* footer */
 
 footer {
@@ -303,20 +319,4 @@ footer li {
 
 footer a {
     color: #666
-}
-/* width */
-::-webkit-scrollbar {
-  width: 15px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 10px grey;
-  border-radius: 10px;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #990033;
-  border-radius: 10px;
 }
