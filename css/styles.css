@@ -12,7 +12,7 @@ body {
 }
 
 body.home {
-    margin:90px auto 10px auto;
+    margin:160px auto 0 auto;
 
 }
 
@@ -22,6 +22,8 @@ header {
     top: 0;
     left: 0;
     width: 100%;
+    background: #f9faf4;
+    height: 120px;
   }
 
 img {
@@ -29,7 +31,25 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 30%;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+}
+
+img.logo {
+  float:left;
+  width:7%;
+  margin: 5px;
+}
+
+a.signup {
+  float:right;
+  margin-right: 20px;
+  text-decoration: none;
+  color: #4A6163;
+}
+
+p.username {
+  float: right;
+  margin: 40px 20px 0 0;
 }
 
 
@@ -46,7 +66,6 @@ nav#primary {
     line-height:50px;
     background:#f17a7e;
     clear: both;
-    margin-bottom: 30px;
     width: 100%;
 
 }
@@ -121,7 +140,7 @@ nav#primary li:hover .drop-down li {
   padding-left: 15px;
 }
 .profile {
-  display: block;
+  ;
 }
 * {
   padding: 0;
@@ -159,24 +178,8 @@ figure {
 .abouthead {
   text-decoration: underline;
   text-align: center;
-  margin-top: 120px;
-  margin-bottom: 120px;
-}
-.aboutbase {
-  background-color: #4A6163;
-  border-style: solid;
-  border-color: #4A6163;
-  padding: 50px;
-  margin-left: 60px;
-  margin-right: 60px;
-}
-.aboutpic {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: solid;
-  border-color: #4A6163;
-  border-width: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 .box-shadow {
   -webkit-box-shadow: 0px 0px 6px 1px rgba(135,135,135,1);
@@ -185,13 +188,7 @@ figure {
   margin-left: 100px;
   margin-right: 100px;
 }
-.uploadbody {
-  margin: 70px;
-}
-.firstClass, .secondClass, .profile {
-  display: inline;
-}
-
+.firstClass, .secondClass, .profile {display: inline;}
 
 /** Maria home page **/
 
@@ -274,4 +271,32 @@ button:hover {
  .cancelbtn, .signupbtn {
    width: 100%;
  }
+}
+
+/* footer */
+
+footer {
+    height:60px;
+    line-height:40px;
+    clear:both;
+    padding: 10px;
+    margin-top: 60px;
+    background: #4A6163;
+
+}
+
+footer ul {
+    padding-left:300px;
+    }
+
+footer li {
+    float:left;
+    list-style-type: none;
+    margin-right:60px;
+    font-size: .875em;
+    color: white;
+}
+
+footer a {
+    color: #666
 }
