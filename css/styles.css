@@ -190,6 +190,10 @@ figure {
 }
 .firstClass, .secondClass, .profile {display: inline;}
 
+#button1, #button2 {
+  display:inline-block;
+}
+
 /** Maria home page **/
 
 .wrapper {
@@ -273,10 +277,6 @@ button:hover {
  }
 }
 
-p.term-priv {
-  margin: 10px 0 20px 0;
-}
-
 /* footer */
 
 footer {
@@ -303,4 +303,18 @@ footer li {
 
 footer a {
     color: #666
+}
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #4A6163;
 }
