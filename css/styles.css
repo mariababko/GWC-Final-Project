@@ -181,6 +181,12 @@ figure {
   margin-top: 40px;
   margin-bottom: 40px;
 }
+.aboutbase {
+  padding: 40px;
+}
+.aboutheader {
+  padding-top: 80px;
+}
 .box-shadow {
   -webkit-box-shadow: 0px 0px 6px 1px rgba(135,135,135,1);
   -moz-box-shadow: 0px 0px 6px 1px rgba(135,135,135,1);
@@ -202,7 +208,23 @@ figure {
 .button1 {
 
 }
-
+.aboutus {
+  padding: 80px;
+  background-color: grey;
+}
+.aboutus2 {
+  padding: 80px;
+  background-color: grey;
+}
+.aboutus3 {
+  padding: 80px;
+  background-color: grey;
+}
+.aboutus, .aboutus2, .aboutus3 {
+  display:inline-block;
+  text-align: center;
+  margin: 40px;
+}
 
 /** Maria home page **/
 
