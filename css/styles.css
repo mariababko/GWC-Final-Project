@@ -121,7 +121,7 @@ nav#primary li:hover .drop-down li {
   padding-left: 15px;
 }
 .profile {
-  ;
+  display: block;
 }
 * {
   padding: 0;
@@ -159,8 +159,24 @@ figure {
 .abouthead {
   text-decoration: underline;
   text-align: center;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+.aboutbase {
+  background-color: #4A6163;
+  border-style: solid;
+  border-color: #4A6163;
+  padding: 50px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.aboutpic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-color: #4A6163;
+  border-width: 20px;
 }
 .box-shadow {
   -webkit-box-shadow: 0px 0px 6px 1px rgba(135,135,135,1);
@@ -169,7 +185,10 @@ figure {
   margin-left: 100px;
   margin-right: 100px;
 }
-.firstClass, .secondClass, .profile {display: inline;}
+.firstClass, .secondClass, .profile {
+  display: inline;
+}
+
 
 /** Maria home page **/
 
