@@ -190,14 +190,14 @@ button.filter:hover {
 
 /***LUCY CSS***/
 
+
 .hits {
   padding: 20px;
   text-decoration: underline;
 }
-.about {
+div.about {
   background-color: #ffc94b;
   margin-top: 100px;
-  padding: 5px;
   display: block;
   clear: both;
 }
@@ -246,7 +246,7 @@ figure {
   padding-left: 30px;
   background-color: #e6e6e6;
 }
-.abouthead {
+.aboutheader {
   text-decoration: underline;
   text-align: center;
   margin-top: 40px;
@@ -254,6 +254,7 @@ figure {
 }
 .aboutbase {
   padding: 40px;
+  text-align: center;
 }
 .aboutheader {
   padding-top: 80px;
@@ -298,6 +299,7 @@ figure {
   margin: 40px;
 }
 .aboutsurround {
+  text-align: center;
   background-color: #7c9a9c;
   margin-left: 40px;
   margin-right: 40px;
@@ -326,11 +328,13 @@ figure {
 /*** LUCY CSS END ***/
 
 
+
+
+
 /** Maria home page **/
 
 .wrapper {
   margin-bottom: 0px;
-  clear: both;
 }
 
 img.post {
