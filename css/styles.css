@@ -330,6 +330,7 @@ figure {
 
 .wrapper {
   margin-bottom: 0px;
+  clear: both;
 }
 
 img.post {
