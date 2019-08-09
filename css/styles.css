@@ -13,7 +13,22 @@ body {
 
 body.home {
     margin:120px auto 0 auto;
+}
 
+body.filter {
+  margin:150px auto 0 auto;
+}
+
+body.upload{
+  margin:150px auto 0 auto;
+}
+
+body.about {
+  margin:150px auto 0 auto;
+}
+
+body.signin {
+  margin:150px auto 0 auto;
 }
 
 
@@ -133,11 +148,43 @@ nav#primary li:hover .drop-down li {
     width: auto;
 }
 
-/** Weekly hits Mrittika*/
-.checked {
-  color: orange;
+/* Filter Buttons*/
+button.art-filter {
+  background-color: #4A6163;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 15%;
+  float:left;
+  margin: 0 10px 70px 430px;
 }
 
+button.music-filter {
+  background-color: #4A6163;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 15%;
+  float:left;
+  margin: 0 10px 70px 40px;
+}
+
+div.button {
+    width: 10%
+    float: left;
+    list-style-type: none;
+    text-align:center;
+    position: relative;
+    margin: 20px;
+}
+
+button.filter:hover {
+  opacity: 0.8;
+}
 
 
 
