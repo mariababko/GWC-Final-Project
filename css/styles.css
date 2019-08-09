@@ -150,6 +150,7 @@ nav#primary li:hover .drop-down li {
   margin-top: 60px;
   padding: 5px;
   display: block;
+  clear: both;
 }
 
 .secondClass {
@@ -215,17 +216,19 @@ figure {
 }
 .firstClass, .secondClass, .profile {display: inline;}
 
-.button1, .button2 {
+#button1, #button2 {
   float: left;
-  display:inline-block;
-  text-align: center;
-  width: 10em;
-  border: 5px solid lavender;
-  text-decoration-color: black;
-  background: lavender;
+  width: 15em;
+  margin-top: 80px;
 }
-.button1 {
-
+#button1 {
+  background-color: #F9A66C;
+  border: 5px double #4A6163;
+  margin-left: 35%;
+}
+#button2 {
+  background-color: #FFC94B;
+  border: 5px double #4A6163;
 }
 .aboutus {
   padding: 80px;
@@ -269,7 +272,6 @@ figure {
   background: #990033;
   border-radius: 10px;
 }
-
 
 
 /** Maria home page **/
