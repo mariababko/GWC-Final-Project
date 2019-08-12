@@ -200,12 +200,11 @@ button.filter:hover {
 div.about {
   background-color: #ffc94b;
   margin-top: 100px;
-  display: block;
   clear: both;
 }
 
 .secondClass {
-  padding-left: 1000px;
+  padding-left: 600px;
 }
 .firstClass {
   padding-left: 15px;
@@ -213,7 +212,8 @@ div.about {
 .firstClass, .secondClass, .profile {display: inline;}
 
 .profile {
-  ;
+  text-align: center;
+  margin: 10px;
 }
 * {
   padding: 0;
@@ -333,7 +333,6 @@ figure {
 img.round {
   border-radius: 50%;
 }
-
 
 /*** LUCY CSS END ***/
 
