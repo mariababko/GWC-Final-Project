@@ -12,7 +12,7 @@
 
 </head>
 
-<body class="about">
+<body class="upload">
 
   <header>
 
@@ -42,26 +42,35 @@
                  </nav>
           </header>
 
-<div class="aboutsurround">
+          <div class="container">
+            <form action="/action_page.php">
+              <label for="title">Post Title</label>
+              <input type="text" id="title" name="title" placeholder="Title of your work...">
 
-  <p class="aboutheader">ABOUT</p>
-  <p class="aboutbase">our cause</p>
-  <img align="center" class="aboutpic" src="https://i.imgur.com/Tp3ULGq.png" width="200px" alt="logo">
-  <p class="aboutbase">Insert inspiration bio here</p>
+              <label for="type">Music/Art</label>
+              <select id="type" name="type">
+                <option value="music">Music</option>
+                <option value="art">Art</option>
+              </select>
 
-<div class="aboutus">
-  <p>PICTURE</p>
-  <p>NAME</p>
-</div>
-<div class="aboutus2">
-  <p>PICTURE</p>
-  <p>NAME</p>
-</div>
-<div class="aboutus3">
-  <p>PICTURE</p>
-  <p>NAME</p>
-</div>
-</div>
+<label for="upload">Upload your work</label>
+
+<input type="file" id="myFile">
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myFile");
+  x.disabled = true;
+}
+</script>
+
+
+              <label for="subject">Description</label>
+              <textarea id="subject" name="subject" placeholder="Write something about your work..." style="height:100px"></textarea>
+
+              <input type="submit" value="Submit">
+
+            </div>
 
         <footer>
           <ul>
