@@ -192,6 +192,7 @@ button.filter:hover {
 
 
 
+
 .hits {
   padding: 20px;
   text-decoration: underline;
@@ -203,7 +204,8 @@ div.about {
 }
 
 .secondClass {
-  padding-left: 850px;
+  clear: both;
+  float:right;
 }
 .firstClass {
   padding-left: 15px;
