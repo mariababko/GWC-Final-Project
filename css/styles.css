@@ -188,9 +188,7 @@ button.filter:hover {
 
 
 
-/***LUCY CSS***/
-
-
+/***LUCYS CSS***/
 
 
 .hits {
@@ -206,6 +204,8 @@ div.about {
 .secondClass {
   clear: both;
   float:right;
+  margin-top: 30px;
+  margin-right: 15px;
 }
 .firstClass {
   padding-left: 15px;
@@ -342,7 +342,8 @@ img.round {
   border-radius: 50%;
 }
 
-/*** LUCY CSS END ***/
+
+/*** LUCYS CSS END ***/
 
 
 
