@@ -1,4 +1,5 @@
 
+
 * {
     padding: 0;
     margin:0;
@@ -6,7 +7,7 @@
 }
 
 body {
-    font-size: 100%;
+    font-size: 160%;
     font-family: "Trebuchet MS", "Lucida Grande", monospace;
     background: #f9faf4;
 }
@@ -19,8 +20,17 @@ body.filter {
   margin:150px auto 0 auto;
 }
 
+body.music-filter {
+  margin:150px auto 0 auto;
+}
+
+body.art-filter {
+  margin:150px auto 0 auto;
+}
+
 body.upload{
   margin:150px auto 0 auto;
+  box-sizing: border-box;
 }
 
 body.about {
@@ -31,6 +41,10 @@ body.signin {
   margin:150px auto 0 auto;
 }
 
+body.signup {
+  margin:120px auto 0 auto;
+}
+
 
 header {
     position: fixed;
@@ -38,15 +52,14 @@ header {
     left: 0;
     width: 100%;
     background: #ffcccc;
-    height: 100px
+    height: 100px;
+    z-index: 10;
   }
 
 img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   width: 30%;
-  margin-bottom: 10px;
+  margin: 20px auto 10px auto;
 }
 
 
@@ -85,6 +98,44 @@ a.signup:hover {
 p.username {
   float: left;
   margin: 20px;
+}
+
+/* Filter Buttons*/
+button.art-filter {
+  background-color: #4A6163;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 15%;
+  float:left;
+  margin: 10px 10px 60px 410px;
+}
+
+button.music-filter {
+  background-color: #4A6163;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 15%;
+  float:left;
+  margin: 10px 10px 60px 40px;
+}
+
+div.button {
+    width: 10%
+    float: left;
+    list-style-type: none;
+    text-align:center;
+    position: relative;
+    margin: 20px;
+}
+
+button.filter:hover {
+  opacity: 0.8;
 }
 
 
@@ -140,52 +191,13 @@ nav#primary li:hover .drop-down {
     left: 0;
     background:#f17a7e;
     width: 100%;
-    z-index: 10;
+    z-index: 999;
 }
 
 nav#primary li:hover .drop-down li {
     float: none;
     width: auto;
 }
-
-/* Filter Buttons*/
-button.art-filter {
-  background-color: #4A6163;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 15%;
-  float:left;
-  margin: 0 10px 70px 430px;
-}
-
-button.music-filter {
-  background-color: #4A6163;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 15%;
-  float:left;
-  margin: 0 10px 70px 40px;
-}
-
-div.button {
-    width: 10%
-    float: left;
-    list-style-type: none;
-    text-align:center;
-    position: relative;
-    margin: 20px;
-}
-
-button.filter:hover {
-  opacity: 0.8;
-}
-
 
 
 /***LUCYS CSS***/
@@ -245,6 +257,7 @@ figure {
 .desc {
   text-align: center;
   background-color: #F17A7E;
+  width: 90%;
 }
 .desctitle {
   padding-left: 30px;
@@ -431,6 +444,22 @@ input[type=text], select, textarea {
   resize: vertical;
 }
 
+textarea#Description {
+  width: 97%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  margin-left: 15px;
+  resize: vertical;
+}
+
+label.Description {
+  margin-left: 15px;
+}
+
 input[type=submit] {
   background-color: #4CAF50;
   color: white;
@@ -452,7 +481,7 @@ input[type=file] {
 .container {
   border-radius: 5px;
   background-color: #f2f2f2;
-  padding: 20px;
+  padding: 40px;
   margin: 50px;
 }
 
@@ -487,3 +516,48 @@ footer li {
 footer a {
     color: #666
 }
+
+/* Favorite Star */
+/* Where code is from: https://codepen.io/Guades/pen/bewZgO */
+label.custom-checkbox {
+  /* Presentation */
+  font-size: 60px
+}
+
+/* Required Styling */
+
+label input#id-of-input[type="checkbox"] {
+  display: none;
+}
+
+.custom-checkbox {
+  position: relative;
+  cursor: pointer;
+}
+
+.custom-checkbox .glyphicon {
+  color: gold;
+  position: absolute;
+  font-size: 0.75em;
+  margin:48px 0 0 860px;
+}
+
+.custom-checkbox .glyphicon-star-empty {
+  color: gray;
+}
+
+.custom-checkbox .glyphicon-star {
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.custom-checkbox:hover .glyphicon-star{
+  opacity: 0.5;
+}
+
+.custom-checkbox input#id-of-input[type="checkbox"]:checked ~ .glyphicon-star {
+  opacity: 1;
+}
+
+
+
