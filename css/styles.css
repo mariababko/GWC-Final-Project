@@ -330,6 +330,9 @@ figure {
   background: #990033;
   border-radius: 10px;
 }
+img.round {
+  border-radius: 50%;
+}
 
 
 /*** LUCY CSS END ***/
