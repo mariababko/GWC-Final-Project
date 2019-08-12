@@ -191,6 +191,8 @@ button.filter:hover {
 /***LUCY CSS***/
 
 
+
+
 .hits {
   padding: 20px;
   text-decoration: underline;
@@ -253,8 +255,12 @@ figure {
   margin-bottom: 40px;
 }
 .aboutbase {
-  padding: 40px;
+  padding: 25px;
   text-align: center;
+}
+.aboutbio {
+  padding-top: 60px;
+  padding-bottom: 30px;
 }
 .aboutheader {
   padding-top: 80px;
@@ -324,6 +330,7 @@ figure {
   background: #990033;
   border-radius: 10px;
 }
+
 
 /*** LUCY CSS END ***/
 
