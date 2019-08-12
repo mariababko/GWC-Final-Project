@@ -248,15 +248,16 @@ figure {
 }
 .border {
   border-style: solid;
-  border-width: 25px;
+  border-width: 20px;
   border-color: #e6e6e6;
-  padding: 25px;
+  padding: 20px;
   border-left-width: 20px;
   border-right-width: 20px;
 }
 .desc {
   text-align: center;
   background-color: #F17A7E;
+  width: 90%;
 }
 .desctitle {
   padding-left: 30px;
@@ -326,9 +327,6 @@ figure {
   content: "";
   clear: both;
   display: table;
-}
-.row {
-  margin: 40px;
 }
 
 .aboutsurround {
@@ -562,6 +560,3 @@ label input#id-of-input[type="checkbox"] {
 .custom-checkbox input#id-of-input[type="checkbox"]:checked ~ .glyphicon-star {
   opacity: 1;
 }
-
-
-
