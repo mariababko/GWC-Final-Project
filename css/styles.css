@@ -257,7 +257,6 @@ figure {
 .desc {
   text-align: center;
   background-color: #F17A7E;
-  width: 90%;
 }
 .desctitle {
   padding-left: 30px;
@@ -302,28 +301,33 @@ figure {
   background-color: #FFC94B;
   border: 5px double #4A6163;
 }
-.aboutus {
-  padding: 20px;
-  background-color: #F9A66C;
-  text-align: center;
-  width: 20%;
+.aboutus1 {
+  background: #F9A66C;
+  margin: 15px;
+  padding: 0px;
 }
 .aboutus2 {
-  padding: 20px;
-  background-color: #FFC94B;
-  text-align: center;
-  width: 20%;
+  background: #FFC94B;
+  margin: 15px;
+  padding: 0px;
 }
 .aboutus3 {
-  padding: 20px;
-  background-color: #F17A7E;
-  text-align: center;
-  width: 20%;
+  background: #F17A7E;
+  margin: 15px;
+  padding: 0px;
 }
-.aboutus, .aboutus2, .aboutus3 {
-  display: inline-block;
-  margin: 40px;
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
 }
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .aboutsurround {
   text-align: center;
   background-color: #7c9a9c;
@@ -333,10 +337,7 @@ figure {
   -moz-box-shadow: 0px 0px 6px 1px rgba(135,135,135,1);
   box-shadow: 0px 0px 6px 1px rgba(135,135,135,1);
 }
-.profilepic3 {
-  height: 10%;
-  width: 10%;
-}
+
 /* width */
 ::-webkit-scrollbar {
   width: 15px;
