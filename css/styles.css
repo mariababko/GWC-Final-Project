@@ -293,16 +293,19 @@ figure {
   padding: 20px;
   background-color: #F9A66C;
   text-align: center;
+  width: 20%;
 }
 .aboutus2 {
   padding: 20px;
   background-color: #FFC94B;
   text-align: center;
+  width: 20%;
 }
 .aboutus3 {
   padding: 20px;
   background-color: #F17A7E;
   text-align: center;
+  width: 20%;
 }
 .aboutus, .aboutus2, .aboutus3 {
   display: inline-block;
