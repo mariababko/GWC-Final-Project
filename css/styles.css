@@ -262,6 +262,7 @@ figure {
 .desctitle {
   padding-left: 30px;
   background-color: #e6e6e6;
+  text-decoration: underline;
 }
 .aboutheader {
   text-decoration: underline;
