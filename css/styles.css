@@ -192,7 +192,6 @@ button.filter:hover {
 
 
 
-
 .hits {
   padding: 20px;
   text-decoration: underline;
@@ -204,7 +203,7 @@ div.about {
 }
 
 .secondClass {
-  padding-left: 600px;
+  padding-left: 850px;
 }
 .firstClass {
   padding-left: 15px;
@@ -213,7 +212,8 @@ div.about {
 
 .profile {
   text-align: center;
-  margin: 10px;
+  margin: 15px;
+  width: 5%;
 }
 * {
   padding: 0;
@@ -288,20 +288,22 @@ figure {
   border: 5px double #4A6163;
 }
 .aboutus {
-  padding: 80px;
+  padding: 20px;
   background-color: #F9A66C;
+  text-align: center;
 }
 .aboutus2 {
-  padding: 80px;
+  padding: 20px;
   background-color: #FFC94B;
+  text-align: center;
 }
 .aboutus3 {
-  padding: 80px;
+  padding: 20px;
   background-color: #F17A7E;
+  text-align: center;
 }
 .aboutus, .aboutus2, .aboutus3 {
-  display:inline-block;
-  text-align: center;
+  display: inline-block;
   margin: 40px;
 }
 .aboutsurround {
@@ -312,6 +314,10 @@ figure {
   -webkit-box-shadow: 0px 0px 6px 1px rgba(135,135,135,1);
   -moz-box-shadow: 0px 0px 6px 1px rgba(135,135,135,1);
   box-shadow: 0px 0px 6px 1px rgba(135,135,135,1);
+}
+.profilepic3 {
+  height: 10%;
+  width: 10%;
 }
 /* width */
 ::-webkit-scrollbar {
