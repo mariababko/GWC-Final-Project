@@ -327,6 +327,9 @@ figure {
   clear: both;
   display: table;
 }
+.row {
+  margin: 40px;
+}
 
 .aboutsurround {
   text-align: center;
