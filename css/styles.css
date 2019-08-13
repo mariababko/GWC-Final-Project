@@ -97,7 +97,8 @@ a.signup:hover {
 
 p.username {
   float: left;
-  margin: 20px;
+  margin: 10px;
+  padding-left: 10px;
 }
 
 /* Filter Buttons*/
