@@ -299,11 +299,12 @@ figure {
   float: left;
   width: 15em;
   margin-top: 80px;
+  margin-bottom: 220px;
 }
 #button1 {
   background-color: #F9A66C;
   border: 5px double #4A6163;
-  margin-left: 35%;
+  margin-left: 32%;
 }
 #button2 {
   background-color: #FFC94B;
