@@ -553,6 +553,9 @@ button:hover {
   margin-top: 130px;
   padding: 16px;
 }
+#container {
+  margin-bottom: 400px;
+}
 
 span.psw {
   float: right;
