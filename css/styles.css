@@ -696,3 +696,9 @@ label input#id-of-input[type="checkbox"] {
 .custom-checkbox input#id-of-input[type="checkbox"]:checked ~ .glyphicon-star {
   opacity: 1;
 }
+
+.minilogo {
+  display: block;
+  width: 5%;
+  margin: 20px 600px 20px auto;
+}
