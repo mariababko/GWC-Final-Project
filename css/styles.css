@@ -206,6 +206,10 @@ nav#primary li:hover .drop-down li {
 
 
 
+.spacing {
+  margin-top: 200px;
+  margin-bottom: 30px;
+}
 .hits {
   padding: 20px;
   text-decoration: underline;
@@ -494,7 +498,6 @@ li.baranimation > a:hover:before {
   font-weight: 700;
   font-size: 3em;
 }
-
 
 
 /*** LUCYS CSS END ***/
