@@ -360,6 +360,43 @@ figure {
 img.round {
   border-radius: 50%;
 }
+.artheading {
+  text-align: center;
+  padding-top: 40px;
+  font-size: 40px;
+}
+li > a {
+  position: relative;
+  color: #000;
+  text-decoration: none;
+}
+
+li > a:hover {
+  color: #000;
+}
+li > a:before {
+  content: "";
+  position: absolute;
+  width: 70%;
+  text-align: center;
+  margin-left: 47px;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 10px;
+  background-color: white;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+li > a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
 
 
 /*** LUCYS CSS END ***/
