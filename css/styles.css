@@ -205,6 +205,7 @@ nav#primary li:hover .drop-down li {
 
 
 
+
 .hits {
   padding: 20px;
   text-decoration: underline;
@@ -272,6 +273,7 @@ figure {
   margin-top: 40px;
   margin-bottom: 20px;
   font-size: 190%;
+  padding-top: 60px;
 }
 .aboutbase {
   padding: 20px 0 0 10px;
@@ -284,9 +286,6 @@ figure {
 
 .aboutbio {
   padding: 60px 20px 30px 20px;
-}
-.aboutheader {
-  padding-top: 60px;
 }
 .box-shadow {
   -webkit-box-shadow: 0px 0px 6px 1px rgba(135,135,135,1);
@@ -369,11 +368,6 @@ figure {
 img.round {
   border-radius: 50%;
 }
-.artheading {
-  text-align: center;
-  padding-top: 40px;
-  font-size: 40px;
-}
 li.baranimation > a {
   position: relative;
   color: #000;
@@ -414,7 +408,7 @@ li.baranimation > a:hover:before {
   text-align: center;
 }
 
-.ml1 .letter {
+.ml1 .letters {
   display: inline-block;
   line-height: 1em;
 }
@@ -439,7 +433,6 @@ li.baranimation > a:hover:before {
 
 .ml1 .line1 { top: 0; }
 .ml1 .line2 { bottom: 0; }
-
 
 
 @keyframes fadeInUp {
@@ -480,7 +473,26 @@ li.baranimation > a:hover:before {
     animation-name: fadeInUp;
     -webkit-animation-name: fadeInUp;
 }
-
+.weeklyhits {
+  font-weight: 700;
+  font-size: 3em;
+  padding: 40px 0 0 30px;
+}
+.mainlogo {
+  padding-top: 40px;
+}
+.discoverheader {
+  text-align: center;
+  padding: 40px;
+  font-weight: 700;
+  font-size: 3em;
+}
+.artheading {
+  text-align: center;
+  padding-top: 80px;
+  font-weight: 700;
+  font-size: 3em;
+}
 
 
 
