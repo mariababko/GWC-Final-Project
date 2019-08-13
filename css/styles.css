@@ -367,16 +367,16 @@ img.round {
   padding-top: 40px;
   font-size: 40px;
 }
-li > a {
+li.baranimation > a {
   position: relative;
   color: #000;
   text-decoration: none;
 }
 
-li > a:hover {
+li.baranimation > a:hover {
   color: #000;
 }
-li > a:before {
+li.baranimation > a:before {
   content: "";
   position: absolute;
   width: 70%;
@@ -392,7 +392,7 @@ li > a:before {
   -webkit-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
 }
-li > a:hover:before {
+li.baranimation > a:hover:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
@@ -432,7 +432,6 @@ li > a:hover:before {
 
 .ml1 .line1 { top: 0; }
 .ml1 .line2 { bottom: 0; }
-
 
 
 
