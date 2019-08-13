@@ -11,7 +11,7 @@ anime.timeline({loop: true})
     duration: 600,
     delay: function(el, i) {
       return 70 * (i+1)
-    } 
+    }
   }).add({
     targets: '.ml1 .line',
     scaleX: [0,1],
