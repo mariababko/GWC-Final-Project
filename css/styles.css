@@ -270,18 +270,23 @@ figure {
   text-decoration: underline;
   text-align: center;
   margin-top: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+  font-size: 190%;
 }
 .aboutbase {
-  padding: 25px;
+  padding: 20px 0 0 10px;
   text-align: center;
 }
+.aboutbasetext {
+  padding: 0 0 20px 0;
+  text-align: center;
+}
+
 .aboutbio {
-  padding-top: 60px;
-  padding-bottom: 30px;
+  padding: 60px 20px 30px 20px;
 }
 .aboutheader {
-  padding-top: 80px;
+  padding-top: 60px;
 }
 .box-shadow {
   -webkit-box-shadow: 0px 0px 6px 1px rgba(135,135,135,1);
@@ -308,6 +313,7 @@ figure {
 .aboutus1 {
   background: #F9A66C;
   margin: 15px;
+  margin-left: 65px;
   padding: 0px;
 }
 .aboutus2 {
@@ -323,9 +329,10 @@ figure {
 
 .column {
   float: left;
-  width: 33.33%;
+  width: 28%;
   padding: 5px;
-}
+  margin-bottom: 100px;
+}   
 .row::after {
   content: "";
   clear: both;
